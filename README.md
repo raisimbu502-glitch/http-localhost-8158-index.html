@@ -1,0 +1,262 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Raghavendra Rai | Portfolio</title>
+<style>
+/* RESET & BASE */
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; }
+html { scroll-behavior:smooth; }
+body { background:#0d1117; color:#f5f5f5; line-height:1.6; }
+
+/* NAVBAR */
+nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;background: rgba(0,0,0,0.85);padding:15px 50px;z-index:1000;}
+nav .logo{font-weight:700;font-size:1.5rem;color:#ff4c60;}
+nav ul{list-style:none;display:flex;gap:25px;}
+nav ul li a{color:#f5f5f5;text-decoration:none;font-weight:500;transition:0.3s;}
+nav ul li a:hover{color:#ff4c60;}
+
+/* HERO */
+.hero{min-height:100vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:0 20px;background:linear-gradient(135deg,#1f1c2c,#928dab);}
+.hero h1{font-size:3rem;margin-bottom:15px;color:#ff4c60;}
+.hero p{font-size:1.2rem;max-width:700px;margin-bottom:25px;}
+.hero a{padding:12px 25px;background:#ff4c60;color:#fff;border-radius:50px;text-decoration:none;font-weight:600;transition:0.3s;}
+.hero a:hover{background:#ff6978;}
+
+/* SECTIONS */
+section{padding:100px 50px;max-width:1000px;margin:0 auto;}
+section h2{font-size:2.5rem;color:#ff4c60;margin-bottom:40px;text-align:center;}
+
+/* ABOUT */
+.about p{font-size:1.1rem;text-align:center;max-width:700px;margin:0 auto;}
+
+/* SKILLS */
+.skills{display:flex;flex-wrap:wrap;justify-content:center;gap:25px;}
+.skill{background: rgba(255,255,255,0.05); padding:20px 30px; border-radius:12px; transition:0.3s;}
+.skill:hover{background:#ff4c60;color:#fff; transform:translateY(-5px);}
+
+/* PROJECTS */
+.projects{display:flex;flex-direction:column;gap:20px;}
+.project{background: rgba(255,255,255,0.05); padding:20px; border-left:5px solid #ff4c60; border-radius:8px; transition:0.3s;}
+.project:hover{background:#ff4c60;color:#fff;}
+
+/* SERVICES */
+.services{display:flex;flex-direction:column;gap:20px;}
+.service{background: rgba(255,255,255,0.05); padding:20px; border-radius:12px; transition:0.3s; cursor:pointer;}
+.service:hover{background:#ff4c60;color:#fff;}
+.service h3{margin-bottom:10px;}
+.service p{font-size:0.95rem;}
+.service a{display:inline-block;margin-top:10px;padding:10px 20px;background:#0d1117;color:#ff4c60;border-radius:50px;text-decoration:none;font-weight:600;transition:0.3s;}
+.service a:hover{background:#ff4c60;color:#fff;}
+
+/* CONTACT */
+.contact{text-align:center;}
+.contact a{display:inline-block;margin:10px;padding:12px 25px;background:#ff4c60;color:#fff;border-radius:50px;text-decoration:none;font-weight:600;transition:0.3s;}
+.contact a:hover{background:#ff6978;}
+
+/* FOOTER */
+footer{text-align:center;padding:20px;font-size:0.9rem;color:#aaa;}
+
+@media(max-width:768px){
+nav{flex-direction:column;gap:10px;}
+.skills,.services{flex-direction:column;align-items:center;}
+}
+</style>
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav>
+  <div class="logo">Raghavendra Rai</div>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Work Samples</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="hero">
+  <h1>Hello, I'm Raghavendra Rai</h1>
+  <p>Expert in scripting, thumbnail creation, title writing, website building, and app development. Hire me directly for your projects.</p>
+  <a href="#contact">Hire Me</a>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <h2>About Me</h2>
+  <p>I create professional websites, apps, AI assistants, and digital content without requiring personal photos. My work focuses on performance, clean design, and client satisfaction.</p>
+</section>
+
+<!-- SKILLS -->
+<section class="skills" id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="skill">Scripting</div>
+    <div class="skill">Thumbnail Creation</div>
+    <div class="skill">Title Writing</div>
+    <div class="skill">Website Building</div>
+    <div class="skill">App Development</div>
+    <div class="skill">AI Assistant Development</div>
+  </div>
+</section>
+
+<!-- WORK SAMPLES -->
+<section class="projects" id="projects">
+  <h2>Work Samples</h2>
+  <div class="project">Portfolio Website for Freelancers</div>
+  <div class="project">Responsive Landing Page for Startup</div>
+  <div class="project">AI Assistant Integration for Businesses</div>
+  <div class="project">Thumbnail & Video Script Projects</div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+  <h2>Services</h2>
+  <div class="service">
+    <h3>AI Assistant Development</h3>
+    <p>I build advanced AI assistants for websites, businesses, and apps. They can talk with users, answer questions automatically, and automate customer support.</p>
+    <a href="ai-assistant.html">Learn More & Request</a>
+  </div>
+  <div class="service">
+    <h3>Website & App Development</h3>
+    <p>Professional websites and mobile apps tailored to your business. Responsive, modern, and fully functional.</p>
+    <a href="mailto:rairaghhu935@gmail.com">Hire Me</a>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <h2>Contact Me</h2>
+  <p>Directly reach me via call or email.</p>
+  <a href="tel:+918318828161">Call: 8318828161</a>
+  <a href="mailto:rairaghhu935@gmail.com">Email: rairaghhu935@gmail.com</a>
+</section>
+
+<!-- FOOTER -->
+<footer>&copy; 2026 Raghavendra Rai. All rights reserved.</footer>
+
+</body>
+</html><!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Assistant Service | Raghavendra Rai</title>
+<style>
+* { margin:0; padding:0; box-sizing:border-box; font-family:'Poppins',sans-serif; }
+body { background:#0d1117; color:#f5f5f5; line-height:1.6; }
+nav{position:fixed;top:0;width:100%;display:flex;justify-content:space-between;align-items:center;background: rgba(0,0,0,0.85);padding:15px 50px;z-index:1000;}
+nav .logo{font-weight:700;font-size:1.5rem;color:#ff4c60;}
+nav ul{list-style:none;display:flex;gap:25px;}
+nav ul li a{color:#f5f5f5;text-decoration:none;font-weight:500;transition:0.3s;}
+nav ul li a:hover{color:#ff4c60;}
+section{padding:100px 50px;max-width:1000px;margin:0 auto;}
+section h2{font-size:2.5rem;color:#ff4c60;margin-bottom:40px;text-align:center;}
+.service-detail{background: rgba(255,255,255,0.05); padding:25px; border-radius:12px; margin-bottom:20px;}
+.service-detail h3{margin-bottom:10px;}
+.service-detail ul{margin-left:20px; margin-top:10px;}
+button{padding:12px 20px;border:none;border-radius:50px;background:#ff4c60;color:#fff;font-weight:600;cursor:pointer;transition:0.3s;}
+button:hover{background:#ff6978;}
+.contact a{display:inline-block;margin:10px;padding:12px 25px;background:#ff4c60;color:#fff;border-radius:50px;text-decoration:none;font-weight:600;transition:0.3s;}
+.contact a:hover{background:#ff6978;}
+.modal { display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); justify-content:center; align-items:center; z-index:2000; }
+.modal-content { background:#111; padding:30px; border-radius:12px; max-width:500px; width:90%; position:relative; }
+.modal-content label{display:block;margin:10px 0 5px;}
+.modal-content input,.modal-content textarea,.modal-content select{width:100%;padding:10px;border-radius:8px;border:none;margin-bottom:10px;}
+.modal-content .close{position:absolute;top:15px;right:20px;cursor:pointer;font-size:1.2rem;color:#fff;}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="logo">Raghavendra Rai</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#ai-service">AI Assistant</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<section class="service-detail" id="ai-service">
+<h2>AI Assistant Development</h2>
+<h3>Voice AI Assistant</h3>
+<ul>
+<li>Natural voice conversation</li>
+<li>Hindi + English support</li>
+<li>Works on website & mobile</li>
+<li>AI powered responses</li>
+<li>Custom business knowledge integration</li>
+</ul>
+
+<h3>Chat AI Assistant</h3>
+<ul>
+<li>Smart AI chatbot for websites</li>
+<li>Instant automated replies</li>
+<li>Customer support automation</li>
+<li>Lead generation capability</li>
+<li>Works 24/7</li>
+</ul>
+
+<button onclick="openModal()">Request AI Assistant</button>
+</section>
+
+<section class="contact" id="contact">
+<h2>Contact Me</h2>
+<p>Directly reach me via call or email.</p>
+<a href="tel:+918318828161">Call: 8318828161</a>
+<a href="mailto:rairaghhu935@gmail.com">Email: rairaghhu935@gmail.com</a>
+</section>
+
+<!-- Modal -->
+<div class="modal" id="aiModal">
+<div class="modal-content">
+<span class="close" onclick="closeModal()">&times;</span>
+<h3>Request AI Assistant</h3>
+<form id="aiForm">
+<label>Name</label><input type="text" name="name" required>
+<label>Email</label><input type="email" name="email" required>
+<label>Phone Number</label><input type="tel" name="phone" required>
+<label>Business / Website Name</label><input type="text" name="business">
+<label>Type of Assistant</label>
+<select name="assistantType" required>
+<option value="Voice">Voice</option>
+<option value="Chat">Chat</option>
+<option value="Both">Both</option>
+</select>
+<label>What features do you want?</label><textarea name="features" required></textarea>
+<label>Budget (Optional)</label><input type="text" name="budget">
+<button type="submit">Submit Request</button>
+</form>
+<p id="successMessage" style="display:none; color:#ff4c60; text-align:center; margin-top:10px;">Your request has been submitted successfully!</p>
+</div>
+</div>
+
+<script>
+function openModal(){document.getElementById('aiModal').style.display='flex';}
+function closeModal(){document.getElementById('aiModal').style.display='none';}
+document.getElementById('aiForm').addEventListener('submit',function(e){
+e.preventDefault();
+document.getElementById('successMessage').style.display='block';
+var form = e.target;
+var subject = encodeURIComponent("AI Assistant Request from "+form.name.value);
+var body = encodeURIComponent(
+"Name: "+form.name.value+"\n"+
+"Email: "+form.email.value+"\n"+
+"Phone: "+form.phone.value+"\n"+
+"Business/Website: "+form.business.value+"\n"+
+"Assistant Type: "+form.assistantType.value+"\n"+
+"Features: "+form.features.value+"\n"+
+"Budget: "+form.budget.value
+);
+window.location.href="mailto:rairaghhu935@gmail.com?subject="+subject+"&body="+body;
+form.reset();
+setTimeout(closeModal,2000);
+});
+</script>
+
+</body>
+</html>
